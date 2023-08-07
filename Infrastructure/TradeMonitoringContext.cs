@@ -28,6 +28,7 @@ namespace Infrastructure
 
 
             modelBuilder.Entity<Role>().HasData(new Role
+
             {
                 IsActive = true,
                 CreateDate = DateTime.Now,
