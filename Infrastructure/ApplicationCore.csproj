@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230729152502_init.cs" />
+    <Compile Remove="Migrations\20230729152502_init.Designer.cs" />
+    <Compile Remove="Migrations\20230729152718_init2.cs" />
+    <Compile Remove="Migrations\20230729152718_init2.Designer.cs" />
+    <Compile Remove="Migrations\20230729163008_init3.cs" />
+    <Compile Remove="Migrations\20230729163008_init3.Designer.cs" />
+    <Compile Remove="Migrations\20230730182044_init5.cs" />
+    <Compile Remove="Migrations\20230730182044_init5.Designer.cs" />
+    <Compile Remove="Migrations\20230730182623_init6.cs" />
+    <Compile Remove="Migrations\20230730182623_init6.Designer.cs" />
+    <Compile Remove="Migrations\20230731180806_init8.cs" />
+    <Compile Remove="Migrations\20230731180806_init8.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
