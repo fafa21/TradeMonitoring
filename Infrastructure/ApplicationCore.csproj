@@ -13,6 +13,7 @@
     <Compile Remove="Migrations\20230729152718_init2.Designer.cs" />
     <Compile Remove="Migrations\20230729163008_init3.cs" />
     <Compile Remove="Migrations\20230729163008_init3.Designer.cs" />
+	  
     <Compile Remove="Migrations\20230730182044_init5.cs" />
     <Compile Remove="Migrations\20230730182044_init5.Designer.cs" />
     <Compile Remove="Migrations\20230730182623_init6.cs" />
